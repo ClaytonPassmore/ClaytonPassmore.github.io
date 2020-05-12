@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+
+    <title>Clayton Passmore</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: monospace;
+        font-size: 1.1em;
+      }
+
+      a {
+        color: black;
+      }
+
+      ul {
+        padding-left: 0em;
+      }
+
+      li {
+        margin-bottom: 1em;
+      }
+
+      li:hover {
+        text-decoration: underline;
+      }
+
+      .avatar {
+        height: 28vh;
+        width: auto;
+        border-radius: 50%;
+        border-width: 12px;
+        border-color: #FFF;
+        border-style: solid;
+      }
+
+      .avatar-container {
+        text-align: center;
+        margin-top: -18vh;
+      }
+
+      .banner {
+        height: 33vh;
+        background-color: #84db9a;
+      }
+
+      .box-shadow {
+        box-shadow: 1px 1px 10px 1px #ececec
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .content {
+        margin: 25px 10px 15px 10px;
+        padding: 10px 25px;
+        border: 0.5px solid #ececec;
+      }
+
+      .flex-between {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .no-space {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="banner"></div>
+
+    <div class="avatar-container">
+      <img class="avatar" src="avatar.jpg" alt="avatar"/>
+    </div>
+
+    <div class="content-container">
+      <div class="content-sizer">
+        <div class="box-shadow content center">
+          <h1>Clayton Passmore</h1>
+          <p>Co-founder of <a href="https://junip.co">Junip</a>.</p>
+        </div>
+
+        <div class="box-shadow content">
+          <h2>Places</h2>
+          <ul>
+            <li class="flex-between">
+              <p class="no-space">GitHub</p>
+              <a class="no-space" href="https://github.com/ClaytonPassmore">@ClaytonPassmore</a>
+            </li>
+            <li class="flex-between">
+              <p class="no-space">LinkedIn</p>
+              <a class="no-space" href="https://linkedin.com/in/claytonpassmore">claytonpassmore</a>
+            </li>
+            <li class="flex-between">
+              <p class="no-space">Twitter</p>
+              <a class="no-space" href="https://twitter.com/dj_clayyy">@dj_clayyy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
